@@ -6,7 +6,7 @@ require (
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/gorilla/mux v1.8.1
 	github.com/grafana/grafana-plugin-sdk-go v0.234.0
-	github.com/grafana/grafana/pkg/apimachinery v0.0.0-20240409140820-518d3341d58f
+	github.com/grafana/grafana/pkg/apimachinery 5c243126256f
 	github.com/prometheus/client_golang v1.19.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/otel/trace v1.26.0
