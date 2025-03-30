@@ -1,6 +1,8 @@
 module github.com/grafana/grafana/pkg/promlib
 
-go 1.21.10
+go 1.23
+
+toolchain go1.23.2
 
 require (
 	github.com/grafana/grafana-plugin-sdk-go v0.234.0
@@ -27,7 +29,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
-	github.com/chromedp/cdproto v0.0.0-20240426225625-909263490071 // indirect
+	github.com/chromedp/cdproto v0.0.0-20250319231242-a755498943c8 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dennwc/varint v1.0.0 // indirect
